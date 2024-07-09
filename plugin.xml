@@ -12,6 +12,7 @@
                 <param name="ios-package" value="SweetAlert" />
             </feature>
         </config-file>
+        <preference name="UseLegacySwiftLanguageVersion" value="true" />
         <source-file src="src/ios/AppDelegate.swift" />
         <source-file src="src/ios/SweetAlert.swift" />
         <source-file src="src/ios/ViewController.swift" />
