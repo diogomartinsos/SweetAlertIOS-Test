@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="outsystems-plugin-sweetalert" version="1.0"
+    xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>IGStories</name>
+    <js-module name="SweetAlert" src="www/SweetAlert.js">
+        <clobbers target="SweetAlert" />
+    </js-module>
+    <platform name="ios">
+        <config-file parent="/*" target="config.xml">
+            <feature name="SweetAlert">
+                <param name="ios-package" value="SweetAlert" />
+            </feature>
+        </config-file>
+        <source-file src="src/ios/AppDelegate.swift" />
+        <source-file src="src/ios/SweetAlert.swift" />
+        <source-file src="src/ios/ViewController.swift" />
+    </platform>
+    <dependency id="cordova-plugin-add-swift-support"
+        url="https://github.com/os-adv-dev/cordova-plugin-add-swift-support" />
+
+</plugin>

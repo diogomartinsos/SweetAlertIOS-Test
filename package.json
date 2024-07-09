@@ -1,0 +1,11 @@
+{
+  "name": "SweetAlert",
+  "version": "1.0.0",
+  "cordova": {
+    "id": "outsystems-plugin-sweetalert",
+    "platforms": [
+        "ios"
+    ]
+  }
+}
+
