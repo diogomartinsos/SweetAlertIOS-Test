@@ -15,8 +15,11 @@
         <source-file src="src/ios/AppDelegate.swift" />
         <source-file src="src/ios/SweetAlert.swift" />
         <source-file src="src/ios/ViewController.swift" />
+        <dependency id="cordova-plugin-add-swift-support"
+            url="https://github.com/OutSystems/cordova-plugin-add-swift-support.git#2.0.3-OS1" />
+
+
     </platform>
-    <dependency id="cordova-plugin-add-swift-support"
-        url="https://github.com/os-adv-dev/cordova-plugin-add-swift-support" />
+
 
 </plugin>
