@@ -11,11 +11,12 @@
             <feature name="SweetAlert">
                 <param name="ios-package" value="SweetAlert" />
             </feature>
-            <preference name="UseSwiftLanguageVersion" value="2" />
+            <preference name="UseSwiftLanguageVersion" value="3" />
         </config-file>
-        <source-file src="src/ios/AppDelegate.swift" />
         <source-file src="src/ios/SweetAlert.swift" />
-        <source-file src="src/ios/ViewController.swift" />
+        <!--  <source-file src="src/ios/AppDelegate.swift" />
+        
+        <source-file src="src/ios/ViewController.swift" /> -->
         <dependency id="cordova-plugin-add-swift-support"
             url="https://github.com/OutSystems/cordova-plugin-add-swift-support.git#2.0.3-OS1" />
 
